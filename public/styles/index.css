@@ -1,0 +1,13 @@
+@import "./tailwind/output.css";
+@import "./assets/fonts.css";
+@import "./global.css";
+@import "./pages/about.css";
+@import "./pages/tips.css";
+@import "./components/matrice.css";
+@import "./components/array.css";
+
+
+
+/*
+npx tailwindcss -i ./public/styles/tailwind/input.css -o ./public/styles/tailwind/output.css --watch
+*/

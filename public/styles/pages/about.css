@@ -1,0 +1,36 @@
+@import "../global.css";
+
+#about-page{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  justify-items: center;
+  overflow-x: hidden;
+}
+
+#home-page{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+#about-page p{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-top: 55px;
+  max-width: calc(100vw - (calc(var(--nav-size) + var(--nav-margin-left) + 1.5rem) * 2));
+}
+
+@media screen and (max-width: 768px ) {
+  #about-page p{
+    padding-top: 55px;
+    width: 90vw;
+  }
+}

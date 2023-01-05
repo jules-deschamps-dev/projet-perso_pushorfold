@@ -1,0 +1,53 @@
+.top-arrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+  transform: translateY(-50px);
+}
+
+.top-arrow .side{
+  width: 50px;
+  height: 10px;
+  background-color: whitesmoke;
+  transition: all 400ms;
+  opacity: 1;
+  animation-duration: 700ms;
+  animation-delay: .2s;
+  animation-fill-mode: forwards;
+}
+
+.top-arrow .left-side{
+  animation-name: top-arrow-left;
+  transform-origin: right 100%;
+}
+.top-arrow .right-side{
+  animation-name: top-arrow-right;
+  transform-origin: left 100%;
+}
+
+@keyframes top-arrow-left {
+  from{
+    transform: rotate(0deg);}
+  to{
+    transform: rotate(-35deg) translateX(7px);;
+    opacity: 1;}
+}
+
+@keyframes top-arrow-right {
+  from{
+    transform: rotate(0deg);}
+  to{
+    transform: rotate(35deg) translateX(-7px);
+    opacity: 1;}
+}
+
+
+.bottom-arrow .left-side{
+  animation: bottom-arrow-left 700ms 1s forwards;
+  transform-origin: right 100%;
+}
+.bottom-arrow .right-side{
+  animation: bottom-arrow-right 700ms 1s forwards;
+  transform-origin: left 100%;
+}

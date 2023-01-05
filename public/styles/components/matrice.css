@@ -1,0 +1,48 @@
+
+@import "./assets/fonts.css";
+
+#matrice{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 60%;
+  aspect-ratio: 1 / 1;
+  color: whitesmoke;
+  font-size: .7rem;
+  min-width: 350px;
+}
+
+
+.line{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards{
+  display: flex;
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 13);
+  aspect-ratio: 1 / 1;
+  transition: all 80ms;
+  font-family: archia;
+  font-size: .7rem;
+  background-color: rgb(35,35,35);
+}
+
+.cards::after{
+  content: "";
+  font-family: magilo;
+}
+
+.suited::after{
+  content: "s";
+}
+.offsuit::after{
+  content: "o";
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "tintin";
+  src: url(../assets/fonts/tintin_talking.ttf)
+}
+
+@font-face {
+  font-family: "tintinMaj";
+  src: url(../assets/fonts/tintinMAJ.ttf)
+}
+@font-face {
+  font-family: "lato";
+  src: url(../assets/fonts/Lato-Regular.ttf)
+}
+@font-face {
+  font-family: "popins";
+  src: url(../assets/fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+  font-family: "archia";
+  src: url(../assets/fonts/archia/Archia-Regular.otf);
+}
+
+@font-face {
+  font-family: "magilio";
+  src: url(../assets/fonts/magilio/Magilio.ttf);
+}
+
+@font-face {
+  font-family: "stanley";
+  src: url(../assets/fonts/stanley/Stanley.otf);
+}
